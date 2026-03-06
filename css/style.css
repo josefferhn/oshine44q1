@@ -9,6 +9,7 @@
 	--color-negro:#303132;
 	--color-morado:#833ad9;
 	--fondo-footer:#121212;
+	--fondo-inputs:#f1f2f3;
 }
 body{
 	font-family: "Roboto", sans-serif;
@@ -22,9 +23,16 @@ h1,h2,h3,h4,h5,h6{
 header{
 	background-color: #000;
 }
+footer{
+	background-color: var(--fondo-footer);
+	padding: 40px 0;
+	color: #fff;
+	font-size: 14px;
+}
+
 
 #hero{
-	background-image: url("../img/v44-oshine-00.jpg");
+	background-image: url("../img/../img/v44-oshine-00.jpg");
 	background-size: cover;
 	background-position: center;
 	background-color: rgba(0,0,0,0.50);
@@ -43,6 +51,12 @@ header{
 	font-weight: 800;
 	margin-bottom: 30px;
 }
+
+
+.hero-contact-us{
+	background-image: url("../img/bg-contact-us.jpg") !important;
+}
+
 
 .btn-primary{
 	background-color: var(--color-primary);
@@ -191,12 +205,68 @@ h2.titulo{
 	color: var(--color-primary);
 }
 
-footer{
-	background-color: var(--fondo-footer);
-	padding: 40px 0;
+
+#contact-info .cta{
+	padding: 8% 0;
 	color: #fff;
+}
+#contact-info .cta p{
+	margin-bottom: inherit;
+}
+#contact-info .cta h4{
+	color: #fff;
+	font-size: 20px;
+}
+#contact-info .cta i{
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	background-color: rgba(255,255,255,0.25);
+	border-radius: 100%;
+	margin-bottom: 20px;
+	font-size: 20px;
+	transition: all 0.4s ease-in-out;
+}
+#contact-info .cta i:hover{
+	background-color: #fff;
+	color: var(--color-primary);
+	transition: all 0.4s ease-in-out;
+}
+
+.contact-map{
+	margin-top: -20%;
+}
+
+#contact-form input,
+#contact-form textarea{
+	background-color: var(--fondo-inputs);
+	border-radius: 0;
+	border: 0;
+	padding: 10px;
+}
+#contact-form input::placeholder,
+#contact-form textarea::placeholder{
+	color: #aaa;
 	font-size: 14px;
 }
+
+#contact-form .titulo{
+	font-size: 40px;
+	font-weight: 700;
+}
+#contact-form ul{
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
