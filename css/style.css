@@ -62,6 +62,13 @@ footer{
 .hero-about-us{
 	background-image: url("../img/bg-about.jpg") !important;
 }
+.hero-slider{
+	padding: 0 !important;
+}
+#hero.hero-slider h3,
+#hero.hero-slider h1{
+	color: #fff;
+}
 
 .btn-primary{
 	background-color: var(--color-primary);
@@ -169,6 +176,7 @@ h2.titulo.fw-bolder{
 }
 #testimonial img{
 	height: 80px;
+	width: 80px;
 }
 #testimonial .wt-20{
 	width: 20%;
@@ -343,6 +351,102 @@ h2.titulo.fw-bolder{
 	transition: all 0.6s ease-in-out;
 }
 
+.owl-carousel .owl-item img{
+	width: inherit;
+	margin: auto;
+}
+
+.testimonial-carousel {
+    padding: 0 6%;
+}
+.testimonial-carousel .center .single-shot {
+    opacity: 1;
+    transform: scale(1);
+}
+.testimonial-carousel .single-shot {
+    opacity: 0.8;
+    transform: scale(0.8);
+}
+
+.testimonial-carousel .owl-dots {
+    text-align: center;
+}
+.testimonial-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 1px solid #fff !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.testimonial-carousel .owl-dot.active {
+    background-color: var(--color-primary);
+    border: 1px solid transparent !important;
+}
+
+.work-info{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	text-align: center;
+	display: grid;
+	align-content: center;
+	opacity: 0;
+	transition: all 0.6s ease-in-out;
+}
+.work-content:hover .work-info{
+	opacity: 1;
+	transition: all 0.6s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+/*Computadora (lg) */
+@media (min-width:1200px){
+	
+	
+	
+}
+
+/*Tableta (sm)*/
+@media (min-width:600px) and (max-width:1200px){
+	
+	#hero h3{
+		font-size: 16px;
+	}
+	#hero h1{
+		font-size: 45px;
+	}
+	
+}
+
+/*Celular*/
+@media (max-width:600px){
+	
+	#hero h3{
+		font-size: 16px;
+	}
+	#hero h1{
+		font-size: 36px;
+	}
+	
+	h2.titulo{
+		font-size: 28px;
+	}
+	
+	.st-servicios{
+		font-size: 18px;
+	}
+	
+}
 
 
 

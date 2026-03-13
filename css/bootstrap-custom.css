@@ -55,7 +55,7 @@ a{
 
 .navbar-light .navbar-toggler{
 	background-color: transparent;
-	border:1px solid #000;
+	border:1px solid transparent;
 }
 .navbar-light .navbar-toggler:hover,
 .navbar-light .navbar-toggler:focus
@@ -85,7 +85,7 @@ a{
 
 
 .navbar-toggler i{
-	color: #00d9d9;
+	color: #fff;
 	font-size: 20px;
 }
 
@@ -104,14 +104,14 @@ a{
 
 /*Altura definida para el Carousel manteniendo el aspecto de la imagen*/
 .carousel .carousel-item {
-  	height: 500px;
+  	height: 600px;
 }
 .carousel-item img {
     position: absolute;
     object-fit:cover;
     top: 0;
     left: 0;
-    min-height: 500px;
+    min-height: 600px;
 }
 
 
